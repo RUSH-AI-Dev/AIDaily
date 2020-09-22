@@ -19,7 +19,7 @@
           try_files $uri $uri/ /index.html;
       }   
         
-# have sub-folder named "demo"        
-location /demo {
-  try_files $uri $uri/ /demo/index.html; 
+# have sub-folder named "/"        
+location / {
+  try_files $uri $uri/ /index.html; 
 }  
